@@ -6,3 +6,5 @@ new_file.writelines([
     'I am the master of my fate, I am the captain of my soul\n',
     'He wore his gun outside his pants, for all the honest world to see\n',
 ])
+new_file.close()
+
