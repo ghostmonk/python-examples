@@ -6,5 +6,13 @@ new_file.writelines([
     'I am the master of my fate, I am the captain of my soul\n',
     'He wore his gun outside his pants, for all the honest world to see\n',
 ])
+
+
+new_file = open('misc/edit_me.txt', 'r')
+print(new_file.read())
+new_file.seek(0)
+
+print("READ AGAIN\n") 
+print(new_file.read())
 new_file.close()
 
