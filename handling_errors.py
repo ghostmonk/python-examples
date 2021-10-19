@@ -7,4 +7,5 @@ try:
         a_file.write('Meatballs\n')
 except:
     print(f"The file {file_name} already exists!!")
+    sys.exit(1)
 
