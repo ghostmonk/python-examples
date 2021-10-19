@@ -1,2 +1,2 @@
 # python-examples
-A repo for quick examples.
+A repo for quick python examples.
